@@ -7,7 +7,6 @@
   <project_license>LicenseRef-SibirEULA=https://github.com/BlenderEngineer/Sibir/blob/f39eb44b68b676179379bcf99c2c7da2e1eaeb76/docs/license.md</project_license>
   <developer_name>BlenderEngineer</developer_name>
   <url type="homepage">https://github.com/BlenderEngineer/Sibir</url>
-  <url type="license">https://github.com/BlenderEngineer/Sibir/blob/1.0.0-flathub-demo/docs/license.md</url>
   <description>
     <p>
       Sibir is a Soviet-era survival horror extraction game: receive a State mandate,
@@ -15,7 +14,7 @@
     </p>
     <p>Steam multiplayer is optional and requires the Steam client when using Steam networking.</p>
   </description>
-  <launchable type="desktop-id">io.github.BlenderEngineer.Sibir</launchable>
+  <launchable type="desktop-id">io.github.BlenderEngineer.Sibir.desktop</launchable>
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/BlenderEngineer/Sibir/f39eb44b68b676179379bcf99c2c7da2e1eaeb76/docs/Screenshots/1.png</image>

@@ -1,6 +1,7 @@
 #!/bin/bash
 # Runs on first install when the manifest uses type: extra-data for the Linux dist tarball.
+# Sandbox only allows writes under /app/extra (cwd during install).
 set -euo pipefail
-install -d "/app/opt/sibir"
-tar --zstd -xf "/app/extra/sibir-linux-amd64.tar.zst" -C "/app/opt/sibir"
-chmod +x "/app/opt/sibir/Sibir.x86_64" || true
+cd /app/extra
+tar --zstd -xf sibir-linux-amd64.tar.zst
+chmod +x Sibir.x86_64 || true
